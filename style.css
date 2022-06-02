@@ -1,0 +1,276 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #EFEFEF;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #767676;
+}
+
+.header {
+    display: flex;
+    align-items: flex-end;
+    padding-top: 1%;
+} 
+
+.header__logo {
+    width: 300px;
+    margin-right: 37.5%;
+    margin-left: 5%;
+}
+
+.header__info {
+    display: flex;
+    height: 30px;
+}
+
+.header__link {
+    display: flex;
+    align-items: center;
+    margin-right: 4%;
+    white-space: nowrap;
+}
+
+.header__icon {
+    margin-right: 5px;
+}
+
+.header__icon--big {
+    width: 25px;
+}
+
+.header__p--big {
+    font-size: 1.2rem;
+}
+
+.menu {
+    background-color: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+    padding: 0 5%;
+}
+
+.menu__first {
+    background-color: #67b404;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 48px;
+}
+
+.menu__link {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 2px;
+}
+
+.menu__icon {
+    margin-top: -10px;
+}
+
+.menu__item {
+    text-transform: uppercase;
+    font-weight: bold;
+}   
+
+.route {
+    margin-left: 5%;
+}
+
+.route--green {
+    color: #67b404;
+}
+
+.buttons {
+    margin-left: 5%;
+    display: flex;
+    width: 90%;
+    padding-bottom: 1%;
+    border-bottom: solid 1px #767676;
+}
+
+.buttons__item {
+    display: flex;
+    justify-content: flex-start;
+    width: fit-content;
+    align-items: center;
+    background-color: #67b404;
+    color: white;
+    padding: 0.5% 1.2%;
+    margin-right: 4%;
+}
+
+.buttons__text {
+    margin-right: 5px;
+}
+
+.main {
+    padding: 2% 5%;
+    display: grid;
+    grid-template-columns: 48% 48%;
+    justify-content: space-between;
+}
+
+.card {
+    display: inline-block;
+    background-color: white;
+    margin-bottom: 5%;
+}
+
+.card__img {
+    width: 100%;
+}
+
+.card__text {
+    padding: 0 15px;
+}
+
+.card__title, .card-offers__title {
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-top: 0;
+    color: #393939;
+}
+
+.card__subtitle, .card-offers__subtitle {
+    margin-top: -4%;
+    font-size: 1.3rem;
+}
+
+.card__bottom {
+    margin-top: 7%;
+    margin-bottom: -4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.card__from {
+    margin: 0;
+}
+
+.card__num {
+    font-weight: bolder;
+    font-size: 2rem;
+    color: #67b404;
+    margin-top: -5px;
+}
+
+.card__link {
+    color: #67b404;
+    border: solid 2px #67b404;
+    display: flex;
+    padding: 6px 8px;
+}
+
+.card__info {
+    margin-right: 4px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.card-offers {
+    background-color: white;
+    margin-left: 5%;
+    padding: 1% 2%;
+    width: 86%;
+}
+
+.card-offers__title {
+    margin-bottom: 1%;
+}
+
+.card-offers__subtitle {
+    margin-top: 0.2%;
+}
+
+.card-icons {
+    margin-left: 5%;
+    width: 90%;
+    display: flex;
+    margin-top: 3%;
+}
+
+.card-icons__icon {
+    width: 12.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: solid 1px grey;
+}
+
+.card-icons__last {
+    border-right: solid 1px grey;
+}
+
+.card_icons__img {
+    margin-top: 20px;
+    width: 64px;
+    height: 64px;
+}
+
+.card-images {
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-images__img {
+    width: 28%;
+    margin-top: 3%;
+}
+
+.card-conditions {
+    width: 90%;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-conditions_column {
+    text-align: center;
+    width: 20%;
+}
+
+.card-conditions__title {
+    color: #67b404;
+    font-size: 2rem;
+}
+
+.card-conditions__text {
+    font-size: 1.5rem;
+    margin-bottom: -13px;
+}
+
+.card-conditions__last-columns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -7%;
+}
+
+.card-conditions__last-column {
+    width: 45%;;
+}
+
+.footer1, .footer2 {
+    background-color: white;
+    padding: 2% 0;
+}
+
+.footer1__1, .footer2__1, .footer1__2 {
+    margin-left: 5%;
+}
+
+.footer1__3 {
+    margin-left: 45%;
+}
+
+.footer2__2 {
+    margin-left: 57.5%;
+}
+
